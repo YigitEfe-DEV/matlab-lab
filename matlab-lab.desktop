@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MATLAB Lab
+Name[tr]=MATLAB Lab
+Comment=MATLAB öğrenim sitesi: özet notlar, 100 soruluk soru bankası ve kod denetimi
+Comment[tr]=MATLAB öğrenim sitesi: özet notlar, 100 soruluk soru bankası ve kod denetimi
+Exec=/home/yigit/matlab-site/start.sh
+Icon=/home/yigit/matlab-site/assets/matlab-lab.svg
+Terminal=true
+Categories=Education;Development;
+Keywords=matlab;octave;programlama;eğitim;
+StartupNotify=true
