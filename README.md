@@ -67,6 +67,7 @@ bu yüzden backend saf Python 3 stdlib ile yazıldı — sıfır bağımlılık,
 matlab-site/
 ├── start.sh                 # başlatma betiği (tarayıcıyı da açar)
 ├── server.py                # HTTP sunucusu (saf stdlib)
+├── matlab-lab.desktop       # masaüstü kısayolu (.desktop)
 ├── mlab/
 │   ├── questions.py         # 100 soru + doğrulama blokları + çözümler
 │   ├── notes.py             # özet notlar + hızlı referans sözlüğü
@@ -76,10 +77,11 @@ matlab-site/
 │   ├── style.css
 │   ├── app.js               # yönlendirme, soru akışı, ilerleme
 │   └── editor.js            # sözdizimi renklendirmeli kod editörü
-├── tests/
-│   ├── test_all.py          # 100 sorunun referans çözümünü doğrular
-│   └── test_negative.py     # yanlış cevapların reddedildiğini doğrular
-└── .work/                   # geçici test çıktıları (temizlenebilir)
+├── assets/matlab-lab.svg    # uygulama ikonu
+└── tests/
+    ├── test_all.py          # 100 sorunun referans çözümünü doğrular
+    ├── test_negative.py     # yanlış cevapların reddedildiğini doğrular
+    └── tools/               # geliştirici araçları (headless Chrome ile UI testi)
 ```
 
 ---
